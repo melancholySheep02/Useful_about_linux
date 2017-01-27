@@ -4,4 +4,5 @@ sudo apt-get --purge remove package
 
 #figlet: to cutomize the terminal e.g. adding name or something
 
-
+#to set the tab to 4
+set expandtab ts=4
