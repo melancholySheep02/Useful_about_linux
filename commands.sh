@@ -6,3 +6,6 @@ sudo apt-get --purge remove package
 
 #to set the tab to 4
 set expandtab ts=4
+
+#to run vlc as root user
+sed -i 's/geteuid/getppid/' /usr/bin/vlc
