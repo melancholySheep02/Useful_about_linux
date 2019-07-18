@@ -1,0 +1,6 @@
+Demo File
+vikrant
+git config --global user.name "MARK30"
+git config --global user.email "viki.sid19@gmail.com"
+git config --global user.name "deadpool"
+git config --global --list
