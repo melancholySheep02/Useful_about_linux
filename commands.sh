@@ -9,3 +9,8 @@ set expandtab ts=4
 
 #to run vlc as root user
 sed -i 's/geteuid/getppid/' /usr/bin/vlc
+
+#to get your fortune told
+apt-get install fortune
+#then run
+fortune
