@@ -14,3 +14,11 @@ sed -i 's/geteuid/getppid/' /usr/bin/vlc
 apt-get install fortune
 #then run
 fortune
+
+# replace previous/last command
+Example:
+head file.txt
+```
+^head^tail^
+```
+tail file.txt
