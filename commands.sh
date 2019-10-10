@@ -22,3 +22,8 @@ head file.txt
 ^head^tail^
 ```
 tail file.txt
+
+#Creates a cute cat chasing around your mouse cursor :*
+sudo apt install oneko
+#then run:
+oneko
