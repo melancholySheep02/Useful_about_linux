@@ -27,3 +27,7 @@ tail file.txt
 sudo apt install oneko
 #then run:
 oneko
+#Locomotive animation
+apt-get install sl
+#then run
+sl
