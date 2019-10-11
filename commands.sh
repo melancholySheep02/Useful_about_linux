@@ -31,3 +31,8 @@ oneko
 apt-get install sl
 #then run
 sl
+
+#watch StarWars in Ascii
+sudo apt install telnet
+#then run:
+telnet towel.blinkenlights.nl
