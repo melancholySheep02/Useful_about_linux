@@ -36,3 +36,6 @@ sl
 sudo apt install telnet
 #then run:
 telnet towel.blinkenlights.nl
+
+#rev : It reverse every string given to it
+rev
