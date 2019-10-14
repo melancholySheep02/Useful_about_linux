@@ -39,3 +39,10 @@ telnet towel.blinkenlights.nl
 
 #rev : It reverse every string given to it
 rev
+#exemple : 
+hello
+olleh
+
+this is the rev command
+ dnammoc ver eht si siht
+
