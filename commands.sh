@@ -1,6 +1,5 @@
 #to remove some package 
 sudo apt-get --purge remove package
-#xprop:to find the class name of any program in linux
 
 #figlet: to cutomize the terminal e.g. adding name or something
 
@@ -37,6 +36,20 @@ sudo apt install telnet
 #then run:
 telnet towel.blinkenlights.nl
 
+#hash command in Linux system is the built-in command of bash which is used to maintain a hash table of recently executed programs.
+#It remembers and shows the program locations. It will give the full pathname of each command name.
+
+#Usage:
+hash
+hash -l
+
+#get matrix effect on your terminal 
+#install
+apt-get install cmatrix
+
+#then run:
+cmatrix
+
 #rev : It reverse every string given to it
 rev
 #exemple : 
@@ -45,4 +58,3 @@ olleh
 
 this is the rev command
  dnammoc ver eht si siht
-
