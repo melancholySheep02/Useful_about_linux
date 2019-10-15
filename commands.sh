@@ -49,3 +49,12 @@ apt-get install cmatrix
 
 #then run:
 cmatrix
+
+#rev : It reverse every string given to it
+rev
+#exemple : 
+hello
+olleh
+
+this is the rev command
+ dnammoc ver eht si siht
