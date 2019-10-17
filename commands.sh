@@ -57,4 +57,12 @@ hello
 olleh
 
 this is the rev command
- dnammoc ver eht si siht
+dnammoc ver eht si siht
+
+#The rig command generates random and possibly fake identities.
+
+#install
+sudo apt install rig
+
+#run
+rig
