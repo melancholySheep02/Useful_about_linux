@@ -46,7 +46,6 @@ hash -l
 #get matrix effect on your terminal 
 #install
 apt-get install cmatrix
-
 #then run:
 cmatrix
 
@@ -60,9 +59,13 @@ this is the rev command
 dnammoc ver eht si siht
 
 #The rig command generates random and possibly fake identities.
-
 #install
 sudo apt install rig
-
 #run
 rig
+
+# Extract and remove a collection of rar archives with error checking (doesn't apply to multi-part archives)
+# Install
+apt-get install unrar
+# Run 
+find . -maxdepth 1 -name \"*.rar\" -exec bash -c 'echo -n \"Extracting {} ... \"; if unrar x -y -inul "{}"; then echo \"Done, deleting\"; rm -f "{}"; else echo \"Failed\"; fi' \\;
