@@ -71,3 +71,9 @@ apt-get install unrar
 find . -maxdepth 1 -name "*.rar" -exec bash -c 'echo -n "Extracting {} ... "; if unrar x -y -inul "{}"; then echo "Done, deleting"; rm -f "{}"; else echo "Failed"; fi' \;
 # Use the following line if adding to aliases (correct escaping)
 ## find . -maxdepth 1 -name \"*.rar\" -exec bash -c 'echo -n \"Extracting {} ... \"; if unrar x -y -inul "{}"; then echo \"Done, deleting\"; rm -f "{}"; else echo \"Failed\"; fi' \\;
+
+# Show ASCII art in terminal with 'bb'
+# Install
+apt-get install bb
+#Run
+bb
