@@ -77,3 +77,6 @@ find . -maxdepth 1 -name "*.rar" -exec bash -c 'echo -n "Extracting {} ... "; if
 apt-get install bb
 #Run
 bb
+
+#find large files in system
+sudo find / -xdev -type f -size +100M
